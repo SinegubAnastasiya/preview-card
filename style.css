@@ -53,8 +53,7 @@ header nav p:not(:last-child) {
     margin-right: 37px;
 }
 
-header .btn,
-main .preview-landing .left .btn {
+.btn {
     border: solid 2px #3D75BF;
     border-radius: 33px;
     width: 147px;
@@ -65,7 +64,7 @@ main .preview-landing .left .btn {
     font: 700 16px Mulish;
 }
 
-header .btn:hover {
+.btn:hover {
     background: linear-gradient(44deg, #1e578d 0%, #3db8bf 100%);
 }
 
@@ -86,7 +85,8 @@ header .btn:hover {
     margin-top: 20px;
 }
 
-.preview-landing .left .btn {
+.preview-landing .left .btn,
+.advantages .btn {
     margin-top: 20px;
     width: 206px;
 }
@@ -161,6 +161,22 @@ header .btn:hover {
     text-align: center;
     font: 400 20px Mulish;
     margin-top: 1px;
+    width: 560px;
+    margin: auto;
+}
+
+.advantages .block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages .block .png {
+    background-image: url(./assets/Group\ 8.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 39px 20px 69px 46px;
 }
 
 .advantages .block {
@@ -171,19 +187,57 @@ header .btn:hover {
     margin-top: 61px;
 }
 
-.advantages .block h3 {
+.advantages .block .text h3 {
     color: #001A49;
     font: 800 24px Mulish;
     margin-top: 39px;
+
 }
 
-.advantages .block p {
+.advantages .block .text p {
     color: #4F596A;
     font: 400 16px Mulish;
-    margin-top: 20px;
+    margin: 20px 37px 41px 0;
+    width: 960px;
+    text-align: justify;
 }
 
 .advantages .lable {
+    text-align: center;
+    margin-top: 122px;
+    font: 800 100px Mulish;
     color: #3D75BF;
-font: 800 100px Mulish;
+}
+
+.advantages h2 {
+    color: #001A49;
+    font: 800 50px Mulish;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.advantages .btn {
+    margin: auto;
+    margin-top: 45px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 129px;
+}
+
+.links .left-side .lable {
+    color: #3C82F4;
+    font: 800 37px Mulish;
+}
+
+.links .left-side span {
+    color: #001A49;
+    font: 800 37px Mulish;
+}
+
+.links .email {
+    color: #707070;
+    font: 500 27px Mulish;
 }
